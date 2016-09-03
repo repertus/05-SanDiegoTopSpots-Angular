@@ -1,0 +1,27 @@
+{
+  "name": "sandiegotopspots",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/repertus/01-AstroWeightCalculator",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+    "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  },
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "angular": "1.5.8",
+    "bootstrap": "^3.3.7"
+  }
+}
